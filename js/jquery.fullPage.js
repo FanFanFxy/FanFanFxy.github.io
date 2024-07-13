@@ -7,6 +7,10 @@
  */
 
 (function($) {
+	document.addEventListener('touchstart', function() {
+		document.getElementById('audios').play()
+	})
+
 	$.fn.fullpage = function(options) {
 		// Create some defaults, extending them with any options that were provided
 		options = $.extend({
