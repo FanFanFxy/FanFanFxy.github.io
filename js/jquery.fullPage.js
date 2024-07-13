@@ -8,7 +8,7 @@
 
 (function($) {
 	document.addEventListener('touchstart', function() {
-		document.getElementById('audios').play()
+		document.getElementById('audio1').play()
 	})
 
 	$.fn.fullpage = function(options) {
