@@ -3340,4 +3340,13 @@
 }
 .xx94 {
 	height:80%;
-}
+}.begin{
+	 position: fixed;
+	 top: 40%;
+	 width: 100%;
+	 text-align: center;
+	 z-index: 666;
+	 height: 100%;
+	 font-size: 30px;
+	 color: #fff;
+ }
