@@ -229,7 +229,13 @@
 <script src="https://cdn.bootcss.com/d3-transform/1.0.4/d3-transform.js"></script>
 <script src="js/bubblefloat.js"></script>
 
-<audio src="music/1.mp3" autoplay="true" loop="true"></audio>
+    <script>
+        document.addEventListener('touchstart', function() {
+            document.getElementById('audio1').play()
+        })
+    </script>
+
+<audio src="music/1.mp3" autoplay="true" loop="true" id="audio1"></audio>
 
 </body>
 
